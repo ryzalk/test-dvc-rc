@@ -1,0 +1,11 @@
+stages:
+  slice:
+    cmd: python slice-data.py
+    deps:
+    - slice-data.py
+    - titanic.csv
+    params:
+    - test-params.yaml:
+      - num_rows
+    outs:
+    - sliced_data.csv

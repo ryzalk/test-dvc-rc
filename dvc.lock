@@ -1,0 +1,13 @@
+slice:
+  cmd: python slice-data.py
+  deps:
+  - path: slice-data.py
+    md5: b375db66b5d861ed8d83927a096c7d1d
+  - path: titanic.csv
+    md5: 61fdd54abdbf6a85b778e937122e1194
+  params:
+    test-params.yaml:
+      num_rows: 200
+  outs:
+  - path: sliced_data.csv
+    md5: bfc7b300270afab78f4a46b513369785
