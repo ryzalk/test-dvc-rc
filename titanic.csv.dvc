@@ -1,0 +1,8 @@
+md5: be310136a9fcdbd3b6a95f8085a08a64
+frozen: true
+deps:
+- etag: '0x8D883BF2826FA67'
+  path: https://ryzalkdev.blob.core.windows.net/ryzal-pub-misc/titanic.csv
+outs:
+- md5: 61fdd54abdbf6a85b778e937122e1194
+  path: titanic.csv
