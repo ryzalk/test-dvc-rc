@@ -7,7 +7,7 @@ slice:
     md5: 61fdd54abdbf6a85b778e937122e1194
   params:
     test-params.yaml:
-      num_rows: 200
+      num_rows: 500
   outs:
   - path: sliced_data.csv
-    md5: bfc7b300270afab78f4a46b513369785
+    md5: 9b32e7a48abc5c51a90d40755e858190
